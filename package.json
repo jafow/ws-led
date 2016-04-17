@@ -1,0 +1,21 @@
+{
+  "name": "ws-leds",
+  "version": "0.0.1",
+  "description": "Controlling a microcontroller with websockets",
+  "main": "serv.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "websockets",
+    "arduino",
+    "tessel"
+  ],
+  "author": "Jared Fowler, Hamza Surti",
+  "license": "MIT",
+  "dependencies": {
+    "johnny-five": "^0.9.40",
+    "websocket-stream": "^3.1.0",
+    "ws": "^1.1.0"
+  }
+}
