@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>yo</title>
+<style> 
+    #sock {
+        background-color: aliceblue;
+        height: 400px;
+        width: 400px;
+
+    }
+</style>
+</head>
+<body>
+    <h1> This is a good one </h1>
+    <div id='sock'>
+        click here for a socket to happen 
+    </div>
+
+    <script src='client-sock.js'></script>
+    <script>
+        var div = document.getElementById('sock')
+        div.addEventListener('click', (e) => {
+            console.log('clicked')
+        })
+    </script>
+</body>
+</html>
